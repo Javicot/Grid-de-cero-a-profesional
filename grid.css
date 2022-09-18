@@ -1,0 +1,8 @@
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 150px);
+  gap: 35px;
+  /* grid: 150px 150px 150px / 1fr 2fr 1fr; */
+  /*Diferentes maneras de llegar a lo mismo xd*/
+}
