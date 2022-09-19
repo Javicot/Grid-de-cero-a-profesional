@@ -1,0 +1,60 @@
+/** ==================== Globales ==================== */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-size: 16px;
+}
+ul {
+  list-style: none;
+  display: inline;
+}
+li {
+  display: inline;
+}
+a {
+  text-decoration: none;
+}
+
+/*============================css*/
+.contenedor {
+  border: 5px solid rgb(192, 89, 147);
+  background-color: rgb(213, 191, 191);
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-auto-rows: 150px;
+}
+
+.item {
+  font-size: 4rem;
+  /* border: 3px solid rgb(140, 237, 233); */
+}
+
+.item:nth-child(1) {
+  grid-column: 1/2;
+  background-color: greenyellow;
+}
+.item:nth-child(2) {
+  grid-column: 2/4;
+  background-color: rgb(146, 195, 74);
+}
+.item:nth-child(3) {
+  grid-column: 1/3;
+  background-color: green;
+}
+.item:nth-child(4),
+.item:nth-child(5) {
+  background-color: greenyellow;
+}
+.item:nth-child(6) {
+  background-color: rgb(146, 195, 74);
+}
+.item:nth-child(7) {
+  background-color: green;
+}
