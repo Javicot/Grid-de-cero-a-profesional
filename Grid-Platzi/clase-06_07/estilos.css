@@ -23,7 +23,9 @@ a {
   text-decoration: none;
 }
 
-/*=====================css*/
+/**===========================CSS*/
+
+/*======================CLASE NUMERO SEIS*/
 .contenedor {
   border: 5px solid #e1bee7;
   background-color: #fff1ff;
@@ -37,4 +39,31 @@ a {
 .item {
   border: 3px solid #00bcd4;
   font-size: 2rem;
+}
+
+/*=====================CLASE NUMERO SIETE*/
+.contenedor2 {
+  border: 5px solid #e1bee7;
+  background-color: #fff1ff;
+  display: grid;
+  /* grid-template-columns: repeat(4, 1fr); */
+  /*usamos fr para partes iguales*/
+
+  /* grid-template-columns: 1fr 1fr min-content max-content; */
+  /*usamos min-content y max-content para llenar las celdas en su minimo y maximo
+  valor. Recuerda que los apuntes estan en NOTION*/
+
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.item1 {
+  border: 3px solid #00bcd4;
+  font-size: 2rem;
+}
+
+.contenedor3 {
+  border: 5px solid #e1bee7;
+  background-color: #fff1ff;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 }
