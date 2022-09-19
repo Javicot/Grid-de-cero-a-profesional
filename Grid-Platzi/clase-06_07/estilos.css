@@ -1,0 +1,40 @@
+/** ==================== Globales ==================== */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-size: 16px;
+  font-family: var();
+}
+ul {
+  list-style: none;
+  display: inline;
+}
+li {
+  display: inline;
+}
+a {
+  text-decoration: none;
+}
+
+/*=====================css*/
+.contenedor {
+  border: 5px solid #e1bee7;
+  background-color: #fff1ff;
+  display: grid;
+  grid-template-columns: minmax(90px, 200px) 200px minmax(60px, 250px);
+  /*nos permite darle un minimo y un maximo de espacio de las celdas*/
+  grid-template-rows: repeat(3, auto);
+  /*el auto nos permite darle un tamaño mas responsive*/
+}
+
+.item {
+  border: 3px solid #00bcd4;
+  font-size: 2rem;
+}
